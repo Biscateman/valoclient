@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 107, 107);
+}
+
+.navbar > ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.navbar > .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: aqua;
+    border: none;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar > ul > li > .link {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

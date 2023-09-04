@@ -1,0 +1,40 @@
+.newagent {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #555;
+    width: 50%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.row {
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+input {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    border: none;
+    border-radius: .25rem;
+    background-color: rgb(255, 51, 66);
+    margin-bottom: 1rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: .5rem;
+}
