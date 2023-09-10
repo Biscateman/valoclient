@@ -9,17 +9,17 @@ const Navbar = () => {
         <div className='navbar'>
             <ul>
                 <li>
-                    <Link className='link' to='/duelists' >Duelists</Link>
+                    <Link className='link' to='/agents/Duelist' >Duelists</Link>
 
                 </li>
                 <li>
-                    <Link className='link' to='/initiators'>Initiators</Link>
+                    <Link className='link' to='/agents/Initiator'>Initiators</Link>
                 </li>
                 <li>
-                    <Link className='link' to='/controllers'>Controllers</Link>
+                    <Link className='link' to='/agents/Controller'>Controllers</Link>
                 </li>
                 <li>
-                    <Link className='link' to='/sentinels'>Sentinels</Link>
+                    <Link className='link' to='/agents/Sentinel'>Sentinels</Link>
                 </li>
             </ul>
             <Link className='btn' to='/newagent' >Add New Agent</Link>

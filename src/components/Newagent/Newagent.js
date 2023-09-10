@@ -15,11 +15,9 @@ const Newagent = () => {
     }
 
     const handleSubmit = (e) => {
-        const url = 'http://localhost:3000/newagent';
+        const url = 'http://localhost:8080/newagent';
 
         e.preventDefault()
-
-        console.log('hey')
 
         console.log(name, imgUrl, role, country)
 
@@ -39,7 +37,7 @@ const Newagent = () => {
         })
             .then(response => response.json())
             .then(data => {
-                console.log(data); // Response data from the server
+                console.log('Done'); // Response data from the server
             })
             .catch(error => {
                 console.error(error);

@@ -1,15 +1,9 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import './Dueslists.css'
+import Agents from '../Agents/Agents'
 
 const Duelists = () => {
     return (
-        <>
-            <Navbar />
-            <div className='duelists'>
-
-            </div>
-        </>
+        <Agents role={'duelists'} />
     )
 }
 
